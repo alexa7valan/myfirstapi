@@ -43,6 +43,9 @@
         <mxCell id="k4Pf3rfUR_AqfiCQR_Up-12" value="resources" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1240" y="120" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="k4Pf3rfUR_AqfiCQR_Up-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="k4Pf3rfUR_AqfiCQR_Up-13" target="k4Pf3rfUR_AqfiCQR_Up-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="k4Pf3rfUR_AqfiCQR_Up-13" value="application.properties&lt;div&gt;DIVIPOLAcodigo_&lt;/div&gt;&lt;div&gt;municpios&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1240" y="180" width="150" height="200" as="geometry" />
         </mxCell>
@@ -72,6 +75,12 @@
         </mxCell>
         <mxCell id="k4Pf3rfUR_AqfiCQR_Up-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.49;entryY=0.023;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="k4Pf3rfUR_AqfiCQR_Up-11" target="k4Pf3rfUR_AqfiCQR_Up-26">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="k4Pf3rfUR_AqfiCQR_Up-29" value="&lt;div style=&quot;background-color: rgb(30, 31, 34); color: rgb(188, 190, 196);&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9,8pt;&quot;&gt;&lt;span style=&quot;color: rgb(207, 142, 109);&quot;&gt;spring.application.name&lt;/span&gt;&lt;span style=&quot;color: rgb(128, 128, 128);&quot;&gt;=&lt;/span&gt;&lt;span style=&quot;color: rgb(106, 171, 115);&quot;&gt;myfirstapi&lt;br&gt;&lt;/span&gt;&lt;pre&gt;&lt;span style=&quot;color: rgb(207, 142, 109);&quot;&gt;locations_filename&lt;/span&gt;&lt;span style=&quot;color: rgb(128, 128, 128);&quot;&gt;=&lt;/span&gt;&lt;span style=&quot;color: rgb(106, 171, 115);&quot;&gt;DIVIPOLA-_C_digos_municipios_20250419&lt;/span&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1150" y="540" width="390" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="k4Pf3rfUR_AqfiCQR_Up-31" value="localhost/perdetcodigo" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="840" y="1360" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
