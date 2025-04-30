@@ -29,7 +29,7 @@
           <mxGeometry x="35" y="20" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="yrVwNeQ31sx00hZp2SnJ-10" value="&amp;nbsp; +readLocationFromCSV(): void&lt;div&gt;+getLocationBycode(code.String)Location&lt;/div&gt;&lt;div&gt;+getLocationByName(name:String)Location&lt;/div&gt;&lt;div&gt;+getLocationByStateCode(stateCode:String):List&amp;lt;L&amp;gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="yrVwNeQ31sx00hZp2SnJ-8" vertex="1">
-          <mxGeometry x="-20" y="45" width="300" height="90" as="geometry" />
+          <mxGeometry y="45" width="300" height="90" as="geometry" />
         </mxCell>
         <mxCell id="g8YLFODePy2-Jw01DUPZ-1" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="yrVwNeQ31sx00hZp2SnJ-8" target="yrVwNeQ31sx00hZp2SnJ-8">
           <mxGeometry relative="1" as="geometry" />
