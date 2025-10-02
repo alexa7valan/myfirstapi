@@ -1,0 +1,37 @@
+import random
+
+def es_camaleon(num):
+    # Calcular suma de dígitos
+    suma_digitos = sum(int(d) for d in str(num))
+    es_par = (suma_digitos % 2 == 0)
+
+    # Invertir número
+    invertido = int(str(num)[::-1])
+    divisible_por_3 = (invertido % 3 == 0)
+
+    # Verificar condiciones
+    cumple = es_par and divisible_por_3
+
+    # Explicación detallada
+    explicacion = f"(suma={suma_digitos} -> {'par' if es_par else 'impar'}, " \
+                  f"invertido={invertido} -> {'divisible entre 3' if divisible_por_3 else 'no divisible entre 3'})"
+    
+    return cumple, explicacion
+
+
+def main():
+    # Solicitar al usuario la cantidad de números
+    cantidad = int(input("Cantidad de números a validar: "))
+
+    # Generar números aleatorios de 3 a 5 cifras
+    numeros = [random.randint(100, 99999) for _ in range(cantidad)]
+    print("\nNúmeros generados:", ", ".join(map(str, numeros)))
+
+    print("\nResultados:")
+    for n in numeros:
+        cumple, detalle = es_camaleon(n)
+        print(f"{n} -> {'Sí' if cumple else 'No'} {detalle}")
+
+
+if _name_ == "_main_":
+    main()
